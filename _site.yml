@@ -1,0 +1,20 @@
+name: "Rmarkdown with navbar"        
+output_dir: "."
+navbar:
+  title: "R 패키지 개발"                            
+  type: inverse
+  right:
+    - text: "한국 R 컨퍼런스"
+      icon: fab fa-r-project
+      href: https://use-r.kr/ 
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: cosmo
+    highlight: textmate
+    #number_sections: true
+    includes:
+      after_body: footer.html   
+    css: styles.css
